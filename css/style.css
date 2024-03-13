@@ -19,3 +19,16 @@ img{
 .ms_cont-hero img{
     width: 50%;
 }
+
+.ms_about{
+    background-color: #1abc9c;
+    text-align: center;
+}
+
+.ms_card_about{
+    border: 1px solid black;
+}
+
+.ms_btn-about{
+    margin-top: 20px;
+}
