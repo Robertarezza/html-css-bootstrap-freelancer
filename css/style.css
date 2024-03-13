@@ -32,3 +32,18 @@ img{
 .ms_btn-about{
     margin-top: 20px;
 }
+
+.ms_contact{
+    padding: 5px 0;
+}
+
+
+.ms_col-contact{
+    background-color: aquamarine;
+    height: 400px;
+}
+
+.ms_location{
+    background-color: #3a546d;
+    text-align: center;
+}
