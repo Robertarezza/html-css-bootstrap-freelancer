@@ -28,10 +28,23 @@ img{
     text-align: center;
 }
 
-.ms_cont-hero img{
+.ms_cont-hero> .avatar{
     width: 50%;
 }
 
+.remove{
+    width: 10%;
+    height: 50px;
+    position: relative;
+    top: -8px;
+    left: 0;
+    filter: invert(1);
+}
+
+.ms_cont-hero>i{
+    font-size: 1.7rem;
+    color: white;
+}
 
 
 /* section ABOUT */
