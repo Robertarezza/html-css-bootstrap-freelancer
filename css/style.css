@@ -3,6 +3,18 @@ img{
     max-width: 100%;
 }
 
+
+.fa-star{
+    font-size: 1.8rem;
+  
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /**********************************************************/
 /**********************************************************/
 /* header */
@@ -21,7 +33,7 @@ img{
     border-color: white;
 }
 
-.ms_logo{
+.ms_font-logo{
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -61,6 +73,12 @@ img{
     max-width: 700px;
 }
 
+.ms_font-hero{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
 .remove{
     width: 10%;
     height: 50px;
@@ -70,10 +88,6 @@ img{
     filter: invert(1);
 }
 
-.ms_cont-hero>i{
-    font-size: 1.7rem;
-  
-}
 
 
 /* section ABOUT */
@@ -83,18 +97,15 @@ img{
     text-align: center;
 }
 
-.ms_card_about{
-    border: 1px solid black;
+.ms_cont-about{
+    width: 80%;
 }
 
 .ms_btn-about{
     margin-top: 20px;
 
 }
-.ms_cont-about{
-     width: 80%;
-     margin: 0 auto
-}
+
 
 
 @media screen and (min-width: 767px) {
