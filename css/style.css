@@ -15,6 +15,23 @@ a{
     color: white;
 }
 
+
+.remove{
+    width: 10%;
+    height: 50px;
+    position: relative;
+    top: -8px;
+    left: 0;
+    filter: invert(1);
+}
+.remove-b{
+    width: 10%;
+    height: 50px;
+    position: relative;
+    top: -8px;
+    left: 0;
+}
+
 /**********************************************************/
 /**********************************************************/
 /* header */
@@ -76,14 +93,7 @@ a{
 }
 
 
-.remove{
-    width: 10%;
-    height: 50px;
-    position: relative;
-    top: -8px;
-    left: 0;
-    filter: invert(1);
-}
+
 
 
 
