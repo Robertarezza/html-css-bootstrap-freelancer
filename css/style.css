@@ -116,16 +116,24 @@ a{
 
 @media screen and (min-width: 992px) {
     .ms_cont-about{
-        max-width: 800px; 
+        max-width: 850px; 
    }
 }
 
 /* section CONTACT */
+
+
 .ms_col-contact{
-    background-color: aquamarine;
-    height: 400px;
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid gray;
 }
 
+.ms_btn{
+    background-color:  #1abc9c;;
+}
 
 
 /* section LOCATION */

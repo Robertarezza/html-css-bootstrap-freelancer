@@ -119,7 +119,7 @@
 
         <!-- ABOUT -->
 
-        <section class="ms_about py-3 text-white">
+        <section class="ms_about py-4 text-white">
             <div class= "container ms_cont-about">
                 <h2 class="text-uppercase pb-2">About</h2>
                 <i class="fa-solid fa-star"></i>
@@ -141,13 +141,32 @@
         <!-- /ABOUT -->
 
         <!-- contact -->
-        <section class="ms_contact">
-            <div class="container text-center">
-                <h3>Contact Me</h3>
+        <section class="ms_contact py-4">
+            <div class="container  ms_cont-about text-center">
+                <h2 class="pb-3">Contact Me</h2>
                 <i class="fa-solid fa-star"></i>
-                <div class="row ms_col-contact">
+                
+                <div class="row text-start py-4">
                     <div class="col-12">
-
+                        <div class="mb-3  ">
+                            <label for="Name" class="form-label">Name</label>
+                            <input type="text" class="form-control ms_col-contact" id="Name">
+                          </div>
+                          <div class="mb-3  ">
+                            <label for="Email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control ms_col-contact" id="Email">
+                          </div>
+                          <div class="mb-3  ">
+                            <label for="Phone" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control ms_col-contact" id="Phone">
+                          </div>
+                          <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control ms_col-contact" id="message" rows="3"></textarea>
+                          </div>
+                          <button type="button" class="btn ms_btn">
+                            <a href="" >Send</a>
+                        </button>
                     </div>
 
                 </div>
